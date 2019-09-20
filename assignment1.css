@@ -1,0 +1,92 @@
+body {
+    background-image: url("blue.jpg");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+.whitebold {
+    color: white;
+    font-weight : bold;
+    
+}
+
+a:hover {
+    color: rgb(255, 204, 229);
+
+}
+
+#table1 {
+    border: 0;
+    width: 75%;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align:left;
+}
+
+#headimage {
+    text-align: center;
+
+}
+
+#head {
+    height: auto; 
+    width: auto; 
+    max-width: 250px; 
+    max-height: 250px;
+}
+
+#asspro {
+    border: 2px black solid;
+    padding: 2px;	
+}
+
+#table2 {
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;   
+}
+
+#table2 tr:nth-child(even) {
+    background-color: green;
+    text-align: center
+}
+
+#table2 tr:nth-child(odd) {
+    background-color: purple;
+    text-align: center
+}
+
+#table3 {
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 75px 0;
+    color: rgb(144, 12, 63 );
+}
+
+#information {
+    text-align: left;
+    text-indent: 48px;
+    font-style: italic;
+}
+
+.educationjob {
+    text-decoration: underline; 
+    color: rgb(0, 128, 0)
+}
+
+#table4 {
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 78px 0;
+    color: rgb(128, 0, 0);
+}
+
+.quotation {
+    font-style: italic;
+    color: yellow;
+}
